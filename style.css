@@ -1,0 +1,140 @@
+/* Global resets */
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+}
+
+/* COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+.rectangle{
+  margin: 0.4em 12em;
+  width: 260px;
+background-color: #424242;
+  border-radius: 4px;
+}
+.whText{
+  padding:1em;
+  color: white;
+  font-size: 13px;
+  font-style:light;
+  font-family:"rooney-sans";
+}
+.triangle-down {
+  margin-left: 13em;
+  margin-top: 1em;
+	border-left:5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 8px solid;
+}
+.orangeStripe{
+ margin:-1.1em 12em ;
+  width: 12em;
+  height: 0.8em;
+  background-color:#EF5F3C;
+
+}
+.whiteStripe{
+  margin:0.3em 24em ;
+  height: 0.8em;
+  width: 4.21em;
+  background-color: white;
+  border: 1px solid #eaeaea;
+}
+.wrapper{
+  width:260px;
+  border-top: transparent;
+   border: 1px solid #eaeaea;
+  margin:-0.3em 12em;
+}
+.orangeText{
+  color:#EF5F3C;
+  font-size:13px;
+  font-weight:bold;
+
+}
+.whiteText{
+  font-size:13px;
+}
+.main-text{
+  width:16em;
+  margin:1em 2em ;
+  text-align:left;
+  color:#777;
+  font-size:13px;
+}
+.blackInt{
+  color: #424242;
+}
+textarea{
+  resize:none;
+ border-radius:3px;
+border: 1px solid #eaeaea;
+  width: 9em;
+  line-height:2em;
+}
+.btts{
+  display:flex;
+}
+.give{
+float:right;
+  margin-right: 1em;
+  color: white;
+  font-size:15px ;
+  padding: 0 20px 0 21px;
+height:45px;
+  background-color:#1CBC2C;
+  border-radius: 3px;
+   border:none;
+}
+.blueText{
+  color:#20A1D4;
+  font-style: italic;
+  font-size:12px;
+  text-align:left;
+  margin: 0 2em 1em 2em;
+}
+.butts2{
+ display:inline-block;
+  margin-left:1.5em;
+  margin-top:0.6em;
+}
+.save{
+ height: 3em;
+  width:10em;
+font-family:rooney-web;
+color:gray;
+  font-weight:bold;
+  background-color:#eaeaea;
+  border-radius: 3px;
+   border:none;
+}
+.tell{
+  height: 3em;
+  width:10em;
+  margin:0.8em;
+  font-family:rooney-web;
+  color:gray;
+  font-weight:bold;
+   background-color:#eaeaea;
+  border-radius: 3px;
+   border:none;
+}
